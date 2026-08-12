@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Auth with GCP') {
+        stage('Auth with GCP with hanu') {
             steps {
                 
                     sh '''
