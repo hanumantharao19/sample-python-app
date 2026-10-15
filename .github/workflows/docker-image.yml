@@ -35,5 +35,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/node-demo:latest
-            ${{ secrets.DOCKER_USERNAME }}/node-demo:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/sample-python-app:latest
+            ${{ secrets.DOCKER_USERNAME }}/sample-python-app:${{ github.sha }}
